@@ -1,0 +1,6 @@
+{
+  "name": "RentTrust-AI | Oráculo Legal y Smart Contracts Avalanche C-Chain",
+  "description": "Asistente legal inmobiliario y oráculo descentralizado para contratos de arriendo en la blockchain de Avalanche (C-Chain). Extrae identidades, calcula división de pagos en USDC, audita cumplimiento legal y genera parámetros para smart contracts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
