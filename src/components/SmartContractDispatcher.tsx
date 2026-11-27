@@ -1,3 +1,4 @@
+﻿'use client';
 import React, { useState } from 'react';
 import { Terminal, Copy, Check, Play, ExternalLink, ShieldCheck, Box, Flame, CheckCircle2, ChevronDown, ChevronUp } from 'lucide-react';
 import { AvalancheSmartContractParams, SimulationResult } from '../types';
@@ -293,7 +294,7 @@ export const SmartContractDispatcher: React.FC<SmartContractDispatcherProps> = (
             </div>
             <div className="flex items-center justify-between">
               <span className="text-slate-500">Gas Used:</span>
-              <span>{simulationResult.gasUsed.toLocaleString()} units ({simulationResult.gasPriceGwei})</span>
+              <span>{simulationResult.gasUsed.toLocaleString('en-US')} units ({simulationResult.gasPriceGwei})</span>
             </div>
             <div className="flex items-center justify-between">
               <span className="text-slate-500">Events Emitted:</span>

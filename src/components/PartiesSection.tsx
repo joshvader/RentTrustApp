@@ -1,3 +1,4 @@
+'use client';
 import React, { useState } from 'react';
 import { UserCheck, Building2, KeyRound, Copy, Check, ShieldCheck, Mail, Hash } from 'lucide-react';
 import { PartyIdentity } from '../types';

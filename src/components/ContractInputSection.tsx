@@ -1,3 +1,4 @@
+﻿'use client';
 import React, { useRef } from 'react';
 import { SAMPLE_CONTRACTS, SampleContract } from '../sampleContracts';
 import { Sparkles, FileText, Upload, RefreshCw, AlertCircle } from 'lucide-react';
@@ -127,7 +128,7 @@ export const ContractInputSection: React.FC<ContractInputSectionProps> = ({
 
         <div className="flex items-center justify-between px-3 py-2 border-t border-slate-800/60 bg-slate-950/90 text-xs text-slate-500 font-mono rounded-b-xl">
           <div>
-            <span>{charCount.toLocaleString()} caracteres</span> • <span>{wordCount.toLocaleString()} palabras</span>
+            <span suppressHydrationWarning>{charCount.toLocaleString('es-CL')} caracteres</span> &bull; <span suppressHydrationWarning>{wordCount.toLocaleString('es-CL')} palabras</span>
           </div>
           <span className="text-[11px] text-slate-500">
             Soporta Ley 18.101 & Wallets Avalanche C-Chain
