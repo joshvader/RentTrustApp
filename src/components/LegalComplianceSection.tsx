@@ -1,3 +1,4 @@
+'use client';
 import React from 'react';
 import { Scale, CheckCircle2, AlertTriangle, XCircle, Info, ShieldAlert, BookOpen, Lightbulb } from 'lucide-react';
 import { LegalCompliance } from '../types';

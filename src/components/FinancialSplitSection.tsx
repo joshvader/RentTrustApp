@@ -1,3 +1,4 @@
+'use client';
 import React, { useState } from 'react';
 import { DollarSign, ArrowRight, Percent, Calendar, Lock, Coins, Layers, Check, Copy } from 'lucide-react';
 import { FinancialBreakdown } from '../types';

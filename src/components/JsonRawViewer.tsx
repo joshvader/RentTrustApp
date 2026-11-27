@@ -1,3 +1,4 @@
+'use client';
 import React, { useState } from 'react';
 import { Copy, Check, Download, CheckCircle2, Terminal, Code2 } from 'lucide-react';
 import { RentTrustOracleResponse } from '../types';
